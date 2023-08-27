@@ -12,4 +12,18 @@ Here:
 * $G$ is the gravitational constant.
 * $m_{i}$ and $m_{j}$ denote the masses of bodies $i$ and $j$ respectively.
 * $d_{ij}$ is the distance between bodies $i$ and $j$
-* $\hat{d_{ij}} is the unit vector pointing from body $i$ to body $j$
+* $\hat{d_{ij}}$ is the unit vector pointing from body $i$ to body $j$
+
+The motion of each body can be described by a set of second-order differential equations:
+
+$x_{i}'' = G\sum_{j\neq i}  \frac{m_j}{d_{ij}^3} (x_j - x_i)$
+
+$y_{i}'' = G\sum_{j\neq i}  \frac{m_j}{d_{ij}^3} (y_j - y_i)$
+
+## Simulation Details
+The simulation process involves numerically solving the system of equations. The input is read from a file named *parameters.txt*, an example of which can be located in the current working directory. This file contains the following information:
+
+
+
+
+
