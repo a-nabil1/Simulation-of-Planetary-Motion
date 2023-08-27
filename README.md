@@ -23,6 +23,19 @@ $y_{i}'' = G\sum_{j\neq i}  \frac{m_j}{d_{ij}^3} (y_j - y_i)$
 ## Simulation Details
 The simulation process involves numerically solving the system of equations. The input is read from a file named *parameters.txt*, an example of which can be located in the current working directory. This file contains the following information:
 
+* The first line includes the values of $G$, $ $T$ and $\Delta t$
+* Subsequent lines describe each body, providing initial position, initial velocity and mass
+
+## Output and Visualization
+The code was tested on the following scenarios:
+| Case     | Body Index $i$ |  $x_{i}(0)$ | $y_{i}(0)$ |  $\dot{x_{i}}(0)$ |  $\dot{y_{i}}(0)$ |  $m_{i}$ |
+| ---------|----------------|-------------|------------|-------------------|-------------------|----------|
+| One Body | 1              | 0.0         |  0.0       | 1.0               | 1.0               | 1.0      |
+| Deflect  | 1              | 0.0         |  0.0       |  0.0              |   0.0             | 10.0     |
+|          | 2              | 1.0         |  -1.0      |                           
+| Orbit1   |
+| Orbit2   |
+
 
 
 
