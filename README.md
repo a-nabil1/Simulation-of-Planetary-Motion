@@ -54,4 +54,15 @@ The code was tested on the following scenarios:
 |          |3               |1.0998       |-1.0538     | 13.848            | -9.4612           |1.0       |
 
 
+![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/9b7cf536-8d7a-467a-adcf-6cc50795c461)
+
+![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/4042a6c5-5500-4a9b-8026-873ab264293d)
+
+![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/ae9d4f7e-742b-4947-baea-34ce1bcbc057)
+
+![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/042f0183-5a15-4f6e-a964-1ccb90b9e53f)
+
+
+
+
  
