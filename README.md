@@ -1,6 +1,6 @@
 # Simulation-of-Planetary-Motion
 
-This C++ project involves simulating the motion of celestial bodies using the Runge-Kutta numerical method. The simulation is designed to explore the gravitational interactions among multiple bodies and gain insights into their dynamics.
+This C++ project involves simulating the motion of celestial bodies using the Runge-Kutta numerical method as part of the 2nd year Aeronautical Engineering Computing module. The simulation is designed to explore the gravitational interactions among multiple bodies and gain insights into their dynamics. This code got a score of 80% in the module.
 
 ## Mathematical Background
 The simulation is based on solving a system of ordinary differential equations (ODE) that describe the motion of celestial bodies. Each body's motion is influenced by the gravitational attraction between all pairs of bodies in the system. The gravitational force between two bodies $i$ and $j$ is calculated using Newton's law of gravitation:
@@ -53,13 +53,16 @@ The code was tested on the following scenarios:
 |          |2               |-1.0998      |1.0538      |-13.848            |-9.4612            |1.0       |
 |          |3               |1.0998       |-1.0538     | 13.848            | -9.4612           |1.0       |
 
-
+### One Body
 ![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/9b7cf536-8d7a-467a-adcf-6cc50795c461)
 
+### Deflect
 ![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/4042a6c5-5500-4a9b-8026-873ab264293d)
 
+### Orbit1
 ![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/ae9d4f7e-742b-4947-baea-34ce1bcbc057)
 
+### Orbit2
 ![image](https://github.com/a-nabil1/Simulation-of-Planetary-Motion/assets/109614621/042f0183-5a15-4f6e-a964-1ccb90b9e53f)
 
 
